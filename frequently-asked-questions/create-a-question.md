@@ -11,9 +11,8 @@ Before you begin, get access to the [Thy Street Dashboard](https://thystreet.com
 * [ ] Enter your question and answer in the pop-up
 * [ ] Click on **Add**
 
-This will create a new question to your question bank
+This will create a new question for your question bank
 
 > Next steps
 >
-> * Add questions to a device
-> * Enable FAQs for the device.&#x20;
+> * [Add questions](../devices/device-options.md#adding-frequently-asked-questions) to a device and enable FAQ section
