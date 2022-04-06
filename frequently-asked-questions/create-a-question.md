@@ -6,10 +6,10 @@ Before you begin, get access to the [Thy Street Dashboard](https://thystreet.com
 
 ### Create New Question
 
-* [ ] Login into the [Thy Street Dashboard](https://thystreet.com/dashbaord) and navigate to the [FAQs](https://thystreet.com/faq) page.
-* [ ] Click on the **Add Question** button
-* [ ] Enter your question and answer in the pop-up
-* [ ] Click on **Add**
+1. Login into the [Thy Street Dashboard](https://thystreet.com/dashbaord) and navigate to the [FAQs](https://thystreet.com/faq) page.
+2. Click on the **Add Question** button
+3. Enter your question and answer in the pop-up
+4. Click on **Add**
 
 This will create a new question for your question bank
 
