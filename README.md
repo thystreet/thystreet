@@ -4,19 +4,19 @@ The following tutorial is a hello world equivalent of using tools provided by [T
 
 ![](<.gitbook/assets/image (2).png>)
 
-{% embed url="https://www.youtube.com/watch?v=lNZUh9FUR38" %}
-
 ## About Device:
 
 For keeping it simple, the setup that we will be using is following:
 
-* **Hardware:** ESP32 devkit v1 module.
+* **Hardware:**  ESP32 devkit v1 module.
 * **Software**: Arduino using platform.io
 * **MQTT:** Any MQTT server available public
 
 {% hint style="info" %}
-This guide majorly focuses on how you can set up a simple workflow for your device using Thy Street APIs. If you are interested in how to set up your environment, please check out Platform.io[ official documentation.](https://docs.platformio.org/en/latest/frameworks/arduino.html)
+This guide majorly focuses on how you can set up a simple workflow for your device using Thy Street APIs. If you are interested in how to set up your environment, please check out Platform.io[ official documentation.](https://docs.platformio.org/en/latest/frameworks/arduino.html)&#x20;
 {% endhint %}
+
+
 
 After a simple google search, we found [HiveMQ](https://www.hivemq.com/mqtt-cloud-broker/) provides a free MQTT broker in their basic plan.Set up your details and get your MQTT credentials. We will be using the following details for the rest of this tutorial:
 
@@ -25,7 +25,7 @@ After a simple google search, we found [HiveMQ](https://www.hivemq.com/mqtt-clou
 * **Hostname:** example.hivemq.cloud
 
 {% hint style="info" %}
-Please understand we are in no way associated with HiveMQ., and this is not any sponsored post. The decision to select HiveMQ was purely random.
+Please understand we are in no way associated with HiveMQ., and this is not any sponsored post. The decision to select HiveMQ was purely random.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -79,6 +79,7 @@ void setup()
 #### Generate new token and set device status to available
 
 ```cpp
+
 void setup()
 {
 ...
@@ -99,6 +100,7 @@ Serial.println(resp.obj.c_str());
 #### Update your MQTT listener loop
 
 ```cpp
+
 // Mark the order status as confirmed
 // Blink the LED 8 times
 // Generate the token again for the next customer 
@@ -107,7 +109,7 @@ Serial.println(resp.obj.c_str());
 
 As a last step, make the device public. (This is a paid action and will ask for a [subscription](https://thystreet.com/pricing)).
 
-Upload the code on your esp32 and start the device. Navigate to the device's page, select 3 led blinks, click on pay. Once you enter the code and make the payment, the onboard led should blink three times.
+Upload the code on your esp32 and start the device. Navigate to the device's page, select 3 led blinks, click on pay. Once you enter the code and make the payment, the onboard led should blink three times. &#x20;
 
 {% hint style="info" %}
 Help your customers by adding [FAQs](frequently-asked-questions/what-are-faqs.md), and support information for your device.
@@ -116,7 +118,8 @@ Help your customers by adding [FAQs](frequently-asked-questions/what-are-faqs.md
 Download and print the device's QR code, install your device and enjoy your sales on the [payment gateway's dashboard](https://dashboard.razorpay.com).
 
 {% hint style="info" %}
-When sharing your device installation over social media, please don't forget to tag us.
+When sharing your device installation over social media, please don't forget to tag us.&#x20;
 
-If you have a device idea feel free to discuss with the [community](https://github.com/thystreet/thystreet/discussions/categories/ideas)
+If you have a device idea feel free to discuss with the [community](https://github.com/thystreet/thystreet/discussions/categories/ideas)&#x20;
 {% endhint %}
+
